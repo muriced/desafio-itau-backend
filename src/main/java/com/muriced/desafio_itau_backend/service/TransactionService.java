@@ -5,8 +5,11 @@ import java.util.DoubleSummaryStatistics;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+import org.springframework.stereotype.Service;
+
 import com.muriced.desafio_itau_backend.model.Transaction;
 
+@Service
 public class TransactionService {
 
     // Lógica para lidar com transações
